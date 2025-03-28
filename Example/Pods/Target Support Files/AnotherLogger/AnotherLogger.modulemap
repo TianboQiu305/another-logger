@@ -1,0 +1,6 @@
+framework module AnotherLogger {
+  umbrella header "AnotherLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}
