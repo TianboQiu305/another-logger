@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AnotherLogger_Example' do
+  pod 'AnotherLogger', :path => '../'
+
+  target 'AnotherLogger_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
